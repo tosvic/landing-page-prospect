@@ -1,10 +1,14 @@
 import './App.css'
+import Hero from './assets/components/Hero'
+import Navbar from './assets/components/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1 className=' font-bold text-3xl text-center'>Hello</h1>
+      <Navbar />
+      <Hero />
+      
     </>
   )
 }
